@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+.superfill {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.details a {
+	
+}
+
+.details a .label {
+	float:left;
+	color: #aaa;
+	width: 120px;
+}

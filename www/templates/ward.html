@@ -1,0 +1,37 @@
+<ion-view>
+    <ion-nav-title>
+       <h1 class="title">Ward {{ ward.ward.ward_number }}</h1>
+    </ion-nav-title>
+    
+    <ion-content>
+        <div class="list details">
+            <div class="item item-divider">
+                Ward
+            </div>
+            <a class="item" href="#"><span class="label">Number:</span> {{ ward.ward.ward_number }}</a>
+            <a class="item" href="#"><span class="label">Address:</span> {{ ward.ward.office_address }}</a>
+
+            <div class="item item-divider">
+                Borough
+            </div>
+            <a class="item" href="#"><span class="label">Roman No:</span> {{ ward.borough.borough_roman_no }}</a>
+            <a class="item" href="#"><span class="label">Chairperson:</span> {{ ward.borough.chairperson }}</a>
+            <a class="item" href="#"><span class="label">Office Address:</span> {{ ward.borough.office_address }}</a>
+            <a class="item" href="#"><span class="label">Phones:</span> {{ ward.borough.phones }}</a>
+
+            <div class="item item-divider">
+                Candidate
+            </div>
+            <a class="item" href="#"><span class="label">Name:</span> {{ ward.candidate.candidate_name }}</a>
+            <a class="item" href="#"><span class="label">Party Code:</span> {{ ward.candidate.party_code }}</a>
+            <a class="item" href="#"><span class="label">Votes Secured:</span> {{ ward.candidate.votes_secured }}</a>
+
+            <div class="item item-divider">
+                Ward Results
+            </div>
+            <a class="item" href="#"><span class="label">Total Electorals:</span> {{ ward.ward_results.total_electorals }}</a>
+            <a class="item" href="#"><span class="label">Votes Polled:</span> {{ ward.ward_results.votes_polled }}</a>
+            <a class="item" href="#"><span class="label">Votes Rejected:</span> {{ ward.ward_results.votes_rejected }}</a>
+        </div>
+    </ion-content>
+</ion-view>
